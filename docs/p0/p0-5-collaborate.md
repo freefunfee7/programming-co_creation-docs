@@ -67,6 +67,21 @@ sidebar_position: 5
 ![brew-7](p0-5-collaborate.assets/brew-7.png)
 
 
+### 1.3.Git的初始配置
+
+如果是第一次安装使用Git，后面在使用Git将本地内容推送到Github的时候，会提示需要设置Git的邮箱和用户名，所以，我们可以安装好后就直接配置好自己的信息。
+
+将"you@example.com" 替换成你的Github邮箱，将"Your Name"替换成你的名字，在终端执行一下就可以了。
+
+```powershell
+git config --global user.email "you@example.com" 
+git config --global user.name "Your Name"
+```
+
+比如这样：
+
+![image-20230225210032987](./p0-5-collaborate.assets/image-20230225210032987.png)
+
 ## 2.为Github配置SSH登录
 
 ### 2.1.Windows
