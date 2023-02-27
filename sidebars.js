@@ -36,7 +36,13 @@ const sidebars = {
     {
       type: "category",
       label: "1.基础篇",
-      items: ["p1/p1-1-repl", "p1/p1-2-values-variables", "p1/p1-3-ide"],
+      items: [
+        "p1/p1-1-repl",
+        "p1/p1-2-values-variables",
+        "p1/p1-3-ide",
+        "p1/p1-4-operators",
+        "p1/p1-5-functions",
+      ],
       collapsible: false,
     },
     {
