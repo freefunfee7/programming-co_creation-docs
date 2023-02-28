@@ -41,6 +41,7 @@ sidebar_position: 5
 
 ### 1.2.Mac
 
+#### homebrew方式安装git
 1.使用Terminal安装homebrew。homebrew是一个在macOS平台的包管理软件，它提供了简便的方式来安装软件和工具，并且能对软件的安装、更新、卸载进行管理。
 首先看下目前电脑里是否已安装了homebrew，在Terminal终端里输入brew，提示未找到则表示电脑里目前没有homebrew：
 ![brew-1](p0-5-collaborate.assets/brew-1.png)
