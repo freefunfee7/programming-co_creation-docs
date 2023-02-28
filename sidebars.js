@@ -42,6 +42,8 @@ const sidebars = {
         "p1/p1-3-ide",
         "p1/p1-4-operators",
         "p1/p1-5-functions",
+        "p1/p1-6-if",
+        "p1/p1-7-mixin-bot",
       ],
       collapsible: false,
     },
@@ -54,7 +56,7 @@ const sidebars = {
     {
       type: "category",
       label: "3.学习笔记",
-      items: ["notes/example"],
+      items: ["notes/note1","notes/example"],
       // collapsible: false,
     },
     {

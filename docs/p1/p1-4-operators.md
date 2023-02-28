@@ -4,8 +4,9 @@ title: 4.操作符
 
 :::info 信息
 [教材](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/pilot/p1-3-structure-2#%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%AC%A6)
-[视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频](https://www.bilibili.com/video/BV1Hx4y1F7pH/?vd_source=4a888db8814702b2062fcaf2575be745)
 :::
+
 
 ## 代码注释
 

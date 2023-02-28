@@ -27,18 +27,20 @@ sidebar_position: 1
 ### 基础篇
 
 - 1-1.[理解编程语言](./p1/p1-1-repl.md) | [视频](https://www.bilibili.com/video/BV1xD4y137Ep/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 1-2.[值与变量](./p1/p1-2-values-variables.md)
-- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md)
+- 1-2.[值与变量](./p1/p1-2-values-variables.md) | [视频](https://www.bilibili.com/video/BV14M411j7d4/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md) | [视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 1-4.[操作符](./p1/p1-4-operators.md)
 - 1-5.[函数](./p1/p1-5-functions.md)
+- 1-6.[逻辑判断与分支](./p1/p1-6-if.md)
+- 1-7.[做个Mixin机器人](./p1/p1-7-mixin-bot.md)
+
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
 我已将教材转化为 Markdown 格式
 :::
 
-- [第四章 程序的基本结构（三）：逻辑判断与分支](https://github.com/coding-newbies-group/pilot/blob/master/p1-4-structure-3.ipynb)
-- [第五章 程序的基本结构（四）：循环](https://github.com/coding-newbies-group/pilot/blob/master/p1-5-structure-4.ipynb)
+- [第五章 程序的基本结构（四）：循环](./pilot/p1-5-structure-4.md)
 - [第六章 程序的基本结构（五）：异常处理](https://github.com/coding-newbies-group/pilot/blob/master/p1-6-structure-5.ipynb)
 - [第七章 理解对象与类：起源篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-7-oo-1.ipynb)
 - [第八章 理解对象与类：概念篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-8-oo-2.ipynb)
