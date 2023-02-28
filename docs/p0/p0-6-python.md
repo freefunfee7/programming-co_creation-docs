@@ -3,6 +3,11 @@ title: 6.第一段Python代码
 sidebar_position: 6
 ---
 
+:::info 信息
+
+[视频](https://www.bilibili.com/video/BV18s4y1j7KQ/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
+
 ## 1.安装python
 
 ### 1.1.Windows

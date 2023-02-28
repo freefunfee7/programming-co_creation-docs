@@ -36,8 +36,16 @@ const sidebars = {
     {
       type: "category",
       label: "1.基础篇",
-      items: ["p1/example"],
-      // collapsible: false,
+      items: [
+        "p1/p1-1-repl",
+        "p1/p1-2-values-variables",
+        "p1/p1-3-ide",
+        "p1/p1-4-operators",
+        "p1/p1-5-functions",
+        "p1/p1-6-if",
+        "p1/p1-7-mixin-bot",
+      ],
+      collapsible: false,
     },
     {
       type: "category",
@@ -47,16 +55,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "测试区",
-      items: [
-        "test/intro",
-        {
-          type: "category",
-          label: "测试文件夹1",
-          items: ["test/test_folder1/file1"],
-          collapsible: false,
-        },
-      ],
+      label: "3.学习笔记",
+      items: ["notes/note1","notes/example"],
+      // collapsible: false,
+    },
+    {
+      type: "category",
+      label: "4.周会",
+      items: ["weekly-meeting/20230223"],
     },
     {
       type: "category",

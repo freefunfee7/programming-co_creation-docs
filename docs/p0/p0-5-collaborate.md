@@ -133,6 +133,21 @@ sudo port install git
 
   ![git_version](p0-5-collaborate.assets/mac_install_git_10-git_version.png)
 
+### 1.3.Git的初始配置
+
+如果是第一次安装使用Git，后面在使用Git将本地内容推送到Github的时候，会提示需要设置Git的邮箱和用户名，所以，我们可以安装好后就直接配置好自己的信息。
+
+将"you@example.com" 替换成你的Github邮箱，将"Your Name"替换成你的名字，在终端执行一下就可以了。
+
+```powershell
+git config --global user.email "you@example.com" 
+git config --global user.name "Your Name"
+```
+
+比如这样：
+
+![image-20230225210032987](./p0-5-collaborate.assets/image-20230225210032987.png)
+
 ## 2.为Github配置SSH登录
 
 ### 2.1.Windows
@@ -268,7 +283,13 @@ sudo port install git
 
 > Github 官方文档：[connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## 3.将仓库Fork到自己的GitHub账户
+## 3.流程图
+
+遇到问题，就回来看看整体过程的流程图，帮助捋顺整体逻辑。
+
+![a106e3bc-f0c3-4a2b-955f-9185efe82154](./p0-5-collaborate.assets/a106e3bc-f0c3-4a2b-955f-9185efe82154.png)
+
+## 4.将仓库Fork到自己的GitHub账户
 
 1. 点击“programming-co_creation-docs”Github仓库页面中的”Fork“按钮：
 
@@ -286,7 +307,7 @@ sudo port install git
 
 
 
-## 4.从自己的Github克隆知识库到本地
+## 5.从自己的Github克隆知识库到本地
 
 1. 点击自己Github账号下该仓库页面的”Code“——”SSH”，然后复制这个SSH地址，强调一下，地址是以git@开头，不是以Https开头的：
 
@@ -306,7 +327,7 @@ sudo port install git
 
    
 
-## 5.在本地修改内容
+## 6.在本地修改内容
 
 文档库中显示的文档都在`programming-co_creation-docs`内的`docs`文件夹内，之后就可以编辑这些文件夹内的Markdown格式的文件，参与共创。
 
@@ -326,11 +347,15 @@ sudo port install git
 
 3. 又或者，可以右键点击文件，选择“Open in External App”，我安装了Typora，会用Typora打开Markdown文件进行编辑：
 
+   > 注意，这里大家的VSCode会没有“Open in External App”这个选项，需要在VSCode的Extentions里面安装“Open in External App”这个插件。
+   >
+   > ![image-20230227220449127](./p0-5-collaborate.assets/image-20230227220449127.png)
+
    ![image-20230223103317649](./p0-5-collaborate.assets/image-20230223103317649.png)
 
    ![image-20230223103413544](./p0-5-collaborate.assets/image-20230223103413544.png)
 
-## 6.将本地内容提交到自己的Github仓库
+## 7.将本地内容提交到自己的Github仓库
 
 当我们完成内容的修改后，就需要把自己本地的内容，提交到自己的Github仓库
 
@@ -369,7 +394,7 @@ sudo port install git
 
 
 
-## 7.将自己的修改提交到共学共创仓库（Pull Request）
+## 8.将自己的修改提交到共学共创仓库（Pull Request）
 
 下一步，就是要将自己的仓库，提交给共学共创仓库，我们把这个过程叫“Pull Request”，简称PR
 

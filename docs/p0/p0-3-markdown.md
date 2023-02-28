@@ -16,6 +16,8 @@ sidebar_position: 3
 
 本文以：[Typora](https://store.lizhi.io/site/products/id/520)（收费软件） 进行演示
 
+> 这里有一个在win10下使用（其他windows版本没有测试过）的[Typora1.1.5版本]( https://pan.baidu.com/s/1c8p_YKFGHxZIrf0jheY-gA?pwd=4321)（不是最新版）解密版，有需要的可自行下载
+
 后面开始使用VSCode也可以使用VSCode编写Markdown（免费软件）
 
 Ctrl + / 可以快速在Markdown预览模式与源码模式之间切换（视频中后面会有解释）

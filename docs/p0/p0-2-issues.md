@@ -8,7 +8,10 @@ sidebar_position: 2
 [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
 :::
 
+## Github Issues提交规范
 
-将课程大纲中的标题作为Github Issues的开始，然后再后面添加一句话问题描述。
+- Github Issues以文章标题开头，否则将不予回复；
 
-[https://github.com/coding-newbies-group/programming-co_creation-docs/issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues)
+- 相同问题不要在多个Github Issues中提交；
+
+- 问题得到解决后，请Issues创建者关闭Issues，整个过程闭环。
