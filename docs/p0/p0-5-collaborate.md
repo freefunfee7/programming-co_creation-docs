@@ -41,9 +41,97 @@ sidebar_position: 5
 
 ### 1.2.Mac
 
-> Mac的Git安装待补充
+> 推荐新手安装 Git 时，先使用方式三。
+> 后面进阶安装了 Mac 包管理器 Homebrew 或 MacPorts 时，再尝试使用方式一或方式二。
 
+#### 方式一：通过 Homebrew 命令安装
+```bash
+brew install git
+```
 
+#### 方式二：通过 MacPorts 命令安装
+```bash
+sudo port install git
+```
+
+#### 方式三：通过安装包安装 Git
+- 点击 [Git 官方下载地址 ](https://git-scm.com/downloads) 进入官网下载页面，单击选择 macOS
+
+![download](p0-5-collaborate.assets/mac_install_git_1-download.png)
+
+- 进入之后，如下图，提供了三种安装方式。其中，前两种方式在这里不做说明，如果已安装 Homebrew 或 MacPorts，可以自行使用对应的命令进行安装。
+
+  本安装教程只针对通过图形化界面方式安装 Git 的讲解，也就是方式三。
+
+![install_style](p0-5-collaborate.assets/mac_install_git_2-install_style.png)
+
+- 点击上面第三个框中箭头所指的 [installer](https://sourceforge.net/projects/git-osx-installer/)，会进入下面的界面。
+
+  > 注意：这里安装的 Git 版本为 2.33.0，并不是最新的版本，但也并没有太大影响。
+
+![git-osx-installer](p0-5-collaborate.assets/mac_install_git_3-git-osx-installer.png)
+
+- 点击上面页面中箭头所指的方框中 Download 按钮，页面会刷新，出现下方图片中的倒计时提示。![wait_time](p0-5-collaborate.assets/mac_install_git_4-wait_time.png)
+
+- 倒数 5 秒后，系统会弹出一个窗口，让你选择你想将安装包放到保存到什么位置。
+
+  选择好你要保存的位置后，点击窗口右下角的保存按钮。![choose_install_location](p0-5-collaborate.assets/mac_install_git_5-choose_install_location.png)
+
+- 等待下载完毕后，打开 Finder，找到你保存安装包的位置，会看到一个以 `.dmg` 结尾的安装包文件。然后，双击 `.dmg` 文件。
+
+  > dmg 是 Mas 系统上的压缩镜像文件扩展名
+
+  ![double_click](p0-5-collaborate.assets/mac_install_git_6-double_click.png)
+
+- 会弹出下图中的安装窗口，窗口中会出现三个文件，只需要双击 `.pkg` 结尾的文件。
+
+  > 其他两个文件，如果好奇可以点开看看。这两个文件并不影响安装 Git。
+
+  ![double_click](p0-5-collaborate.assets/mac_install_git_7-double_click-.png)
+
+- 这个时候，会出现下面的安装窗口。
+
+  - 欢迎界面，直接点窗口右下角的继续按钮即可。
+
+    ![8-1-install](p0-5-collaborate.assets/mac_install_git_8-1-install.png)
+
+  - 这一步是选择安装的磁盘位置
+
+    ![8-2-install](p0-5-collaborate.assets/mac_install_git_8-2-install.png)
+
+  - 这一步是确认安装。
+
+    如果上一步选择磁盘时选择错了，这个时候可以通过 Go Back 按钮返回到上一个安装步骤。
+
+    也可以通过 Change Install Location 来更改安装位置。
+
+    选择完毕后，点击 安装install 按钮。
+
+    ![8-3-install](p0-5-collaborate.assets/mac_install_git_8-3-install.png)
+
+  - 这个时候会弹出一个安全提示，需要你使用指纹或者手动输入密码，来安装新软件。
+
+    > 安装新软件时，通常都会弹出这个安全提示框，需要你使用指纹或密码来确认安装。不用担心。
+
+    ![8-4-install](p0-5-collaborate.assets/mac_install_git_8-4-install.png)
+
+  - 点了上面的安装按钮之后，会自动进行安装。
+
+    安装完毕之后，会出现下面的界面，提示你安装成功了。
+
+    ![8-5-install](p0-5-collaborate.assets/mac_install_git_8-5-install_success.png)
+
+- 点击上图右下角的关闭窗口按钮，会出现下面的弹窗提示，这是系统在询问你要不要将安装包丢到垃圾桶中。按需选择即可。
+
+  > 一般在安装新软件成功后，可以删除无用的安装包，当然也可以保留。
+
+  ![move_to_trash](p0-5-collaborate.assets/mac_install_git_9-move_to_trash.png)
+
+- 最后一步，打开`Terminal`，也就是命令行终端，输入命令 `git --version`。
+
+  出现 Git 版本号，说明安装 Git 成功了。
+
+  ![git_version](p0-5-collaborate.assets/mac_install_git_10-git_version.png)
 
 ### 1.3.Git的初始配置
 
