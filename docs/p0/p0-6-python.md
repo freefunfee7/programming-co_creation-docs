@@ -35,7 +35,50 @@ sidebar_position: 6
 
 ### 1.2.Mac
 
-待补充
+> Mac 上默认已安装了 Python 2.7,我们共学需要用  Python 3以上版本
+> 推荐新手先使用最简单的图形化安装，后面进阶后可探索命令行的安装方式
+
+1. 查看当前 Python 版本，可以在终端（Terminal）中输入命令`python --version`，执行结果：`Python 2.7.18`返回的是系统当前的版本
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_08-47-18.jpg)
+
+
+2. 访问 [Python官方下载页面](https://www.python.org/downloads/)，一般会自动识别当前计算机系统合适的安装版本，直接点击“Download Python 3.11.2”就可以了。也可以点击“macOS”查看更多版本，自行选择。
+
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-48.jpg)
+
+3. 开始下载Python安装包，安装包会自动默认保存在下载文件夹或你已设置过的默认下载路径下。
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-49.jpg)
+
+4. 双击安装包（后缀名为.pkg的文件），进入 Python 安装向导，然后按照向导一步一步点击“继续”，弹出软件许可协议中条款时，点击“同意”，最后点击“安装”“关闭”即可。
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-50.jpg)
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-51.jpg)
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-52.jpg)
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-53.jpg)
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-54.jpg)
+
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-55.jpg)
+
+5. 关闭后系统会弹出窗口询问你是否保留软件包，按需选择即可（我一般会保留作为记录，以便后续查询回顾自己的操作，新手一般都会有一段迷糊期，哈）
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-56.jpg)
+
+6. 在终端（Terminal）中输入命令`python3 --version`验证是否安装成功
+![Alt text](p0-6-python.assets/Xnip2023-03-01_09-05-57.jpg)
+
+执行结果：`Python 3.11.2`返回的是系统当前的版本
+
+输入命令 `Python3`，进入了`Python3`解释器，可以编写简单的代码`print("Hello Python")`
+>注意：如果输入的是`Python` 则进入的是`Python2`
+
+输入命令 `exit()`退出编程环境
+
 
 
 
