@@ -55,8 +55,8 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "3.学习笔记",
-      items: ["notes/note1","notes/example"],
+      label: "3.扩展资料",
+      items: ["extend/intro","extend/git-basic","extend/vscode-extentions",],
       // collapsible: false,
     },
     {

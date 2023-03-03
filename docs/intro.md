@@ -48,6 +48,8 @@ sidebar_position: 1
 - [第十章 字符与字符串](https://github.com/coding-newbies-group/pilot/blob/master/p1-a-string.ipynb)
 - [最十一章 课程练习](https://github.com/coding-newbies-group/pilot/blob/master/p1-b-final.ipynb)
 
-### 学习笔记
+### 扩展资料
 
-- [01.Example](./notes/example.md)
+- [01.git的基本用法](./extend/git-basic.md)
+- [02.VSCode插件](./extend/vscode-extentions.md)
+    - [Wakatime](./extend/vscode-extentions.md#wakatime)

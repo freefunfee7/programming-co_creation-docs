@@ -1,5 +1,5 @@
 ---
-title: 学习笔记1：git的基本用法
+title: git的基本用法
 ---
 # git的基本用法
 
@@ -9,7 +9,7 @@ title: 学习笔记1：git的基本用法
 
 ### 第1步：配置自己的git
 
-![1](note1.assets/1.png)
+![1](git-basic.assets/1.png)
 
 ```powershell
 git config --global user.name "XXX"  #说明：引号里面填自己的github用户名
@@ -23,19 +23,19 @@ git config --core.editor "code -w"   #说明：把Visual Studio Code设置为默
 
 使用命令：`mkdir learn-git`，创建一个名为“learn-git”的文件夹
 
-![](note1.assets/2.png)
+![](git-basic.assets/2.png)
 
 ### 第3步：打开learn-git文件夹
 
 使用命令：`cd learn-git `，打开“learn-git”文件夹
 
-![](note1.assets/3.png)
+![](git-basic.assets/3.png)
 
 ### 第4步：初始化learn-git文件夹
 
 使用命令：`git init`, 初始化learn-git文件夹
 
-![](note1.assets/4.png)
+![](git-basic.assets/4.png)
 
 ### 第5步：查看learn-git文件夹
 
@@ -43,19 +43,19 @@ git config --core.editor "code -w"   #说明：把Visual Studio Code设置为默
 
 说明：使用　`git init`命令初始化“learn-git”文件夹后，会生成一个后缀为.git的隐藏文件夹，使用一个特殊的命令：`ls -force`，可以看到这个被隐藏的文件夹
 
-![](note1.assets/5.png)
+![](git-basic.assets/5.png)
 
 ### 第6步：使用＂git status＂命令查看git状态
 
 对新手来说，这个操作很重要，我们需要从git的视角观察文件夹里的变化情况
 
-![](note1.assets/6.png)
+![](git-basic.assets/6.png)
 
 ### 第7步：创建一个README.md的文件
 
 使用命令`code README.md`创建一个文件，命名为“[README.md](http://README.md)”, 按回车，系统会自动启动Vs Code，在Vs Code界面下输入内容，然后保存，关闭Vs Code
 
-![](note1.assets/7.png)
+![](git-basic.assets/7.png)
 
 ### 第8步：把经过编辑的README.md提交到git的工作区
 
@@ -63,25 +63,25 @@ git config --core.editor "code -w"   #说明：把Visual Studio Code设置为默
 
 说明：提交之后，可以再用`git status`命令查看git的状态，观察前后的变化
 
-![](note1.assets/8-1.png)
+![](git-basic.assets/8-1.png)
 
-![](note1.assets/8-2.png)
+![](git-basic.assets/8-2.png)
 
 ### 第9步：把经过编辑的README.md提交到git管辖
 
 使用命令：`git commit`，把刚刚我们编辑过的README.md文件提交给git管辖，命令行界面会弹出关于本次提交的说明信息
 
-![](note1.assets/9.png)
+![](git-basic.assets/9.png)
 
 ### 第10步：在弹出来的Vs Code中填写修改备注
 
-![](note1.assets/10.png)
+![](git-basic.assets/10.png)
 
 在命令行输入`git commit`命令后，系统会自动跳转到Vs Code界面，我们需要在第一行填写本次修改的备注信息，例如我在这里填写的是`the second edition`，然后关闭Vs Code界面。
 
 关闭Vs Code界面之后，回到命令行界面，再用`git status`命令查看git的状态，观察前后的变化。
 
-![](note1.assets/10-1.png)
+![](git-basic.assets/10-1.png)
 
 ## 二、在github建一个远程仓库
 
@@ -91,19 +91,19 @@ github网址：https://github.com/
 
 ### 第2步：点右上角的“+”号
 
-![](note1.assets/11.png)
+![](git-basic.assets/11.png)
 
 ### 第3步：点“New repository”
 
-![](note1.assets/12.png)
+![](git-basic.assets/12.png)
 
 ### 第4步：在红框处为该远程仓库命名，如“learn-git”
 
-![](note1.assets/13.png)
+![](git-basic.assets/13.png)
 
 ### 第5步：点“Create repository” 创建仓库
 
-![](note1.assets/14.png)
+![](git-basic.assets/14.png)
 
 创建仓库时，为这个仓库取个名字就行，github远程仓库名称可以和本地仓库名称一致，也可以不一致，对于初学者来说，建议让本地文件夹名称和github远程仓库名称保持一致，这样方便我们学习。为仓库完成命名后，当前页面的其他选项保持默认状态，点击最下方的“Create repository”按钮。
 
@@ -163,6 +163,6 @@ git push -u origin main
 
 刷新后，可以看到我们在本地创建的“README.md”文件显示在github中“learn-git”这个仓库里了。
 
-![](note1.assets/15.png)
+![](git-basic.assets/15.png)
 
 如果您完成了以上全部的步骤，恭喜，您又学会了一项新技能！
