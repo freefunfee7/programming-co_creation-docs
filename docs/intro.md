@@ -31,9 +31,8 @@ sidebar_position: 1
 - 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md) | [视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 1-4.[操作符](./p1/p1-4-operators.md)
 - 1-5.[函数](./p1/p1-5-functions.md)
-- 1-6.[逻辑判断与分支](./p1/p1-6-if.md)
-- 1-7.[做个Mixin机器人](./p1/p1-7-mixin-bot.md)
-
+- 1-6.[做个Mixin机器人](./p1/p1-6-mixin-bot.md)
+- 1-7.[逻辑判断与分支](./p1/p1-7-if.md)
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot

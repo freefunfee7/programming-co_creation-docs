@@ -1,5 +1,5 @@
 ---
-title: 7.做个Mixin机器人
+title: 6.做个Mixin机器人
 ---
 
 下面让我们来做个最基础的Mixin机器人，后面的教学会结合Mixin机器人和JarvaScript一起来学习。

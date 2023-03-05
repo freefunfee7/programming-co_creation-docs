@@ -23,13 +23,62 @@ title: 5.函数
 
 ## 定义函数
 
-def，表示这是个函数
+```python
+def plus(input1,input2):
+    return input1 + input2
 
-f，函数的名字
+sum = plus(1,2)
 
-(a,b)，需要提供的输入
+print(sum)
+```
 
-return，函数返回的结果
+def，表示这是个函数；
+
+plus，函数的名字，换成你觉得有意义的名字；
+
+(input1, input2)，需要提供的输入；
+
+input1 + input2，函数内对输入的处理过程；
+
+return，函数返回的结果，即函数的输出。
 
 
 
+## 默认输出
+
+回顾一下[赋值](p1-4-operators.md#赋值操作符)，我们可以通过赋值，“保存”函数的输出。
+
+```python
+a = type("Hi")
+print(a)
+```
+
+假如没有不写return？是否有return的值？值是什么？
+
+
+
+## 总结
+
+
+
+函数就是一段代码，将输入，通过处理，产生输出。输入可以是空，什么都不提供，输出也可以是空，什么都不产出。
+
+
+
+## 作业：进一步理解处理过程和输出
+
+```python
+def demo():
+    print("Hi")
+    return "Hi"
+
+demo()
+
+a = demo()
+
+print(a)
+```
+
+上面的代码会打印出3个Hi，请解释。
+
+传送门：[作业：1-5-函数](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/59)

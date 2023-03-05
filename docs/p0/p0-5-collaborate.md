@@ -20,28 +20,22 @@ sidebar_position: 5
 
 ### 1.1.Windows
 
-**方式一**：访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
+访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
 
 ![83784115-1e37-494a-bc8c-19b80dfe2303](./p0-5-collaborate.assets/83784115-1e37-494a-bc8c-19b80dfe2303.png)
 
 
 
-**方式二**：如果已经安装了 scoop 的话，可以直接在 PowerShell 里使用命令：`scoop install git`.
 
+命令行如果输入`git --version`后有返回 git 版本，表示安装成功：
 
-
-**检查是否成功安装**
-
-
-命令行如果输入`git --version`后有返回 git 版本，表示安装成功
-
-![gitVersion](https://assets.quill.im/g1wnnoy560ywst8xcq3ik4nqgrc8)
+![image-20230304212442152](./p0-5-collaborate.assets/image-20230304212442152.png)
 
 
 
 ### 1.2.Mac
 
-> 推荐新手安装 Git 时，先使用方式三。
+> 推荐新手安装 Git 时，**先使用方式三。**
 > 后面进阶安装了 Mac 包管理器 Homebrew 或 MacPorts 时，再尝试使用方式一或方式二。
 
 #### 方式一：通过 Homebrew 命令安装
@@ -416,7 +410,15 @@ git config --global user.name "Your Name"
 
    ![image-20230223110036786](./p0-5-collaborate.assets/image-20230223110036786.png)
 
+## 9.冲突处理
+
+
+
+
+
+
 ------
+
 
 ## 补充：
 
