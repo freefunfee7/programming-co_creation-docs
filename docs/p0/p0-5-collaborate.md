@@ -170,7 +170,7 @@ git config --global user.name "Your Name"
 
    ![image-20230223141719328](./p0-5-collaborate.assets/image-20230223141719328.png)
 
-4. 然后Git和Github的通信，就可以通过SSH进行了：
+4. 然后Git和Github的通信，就可以通过SSH进行了：123
 
    ![image-20230223142359261](./p0-5-collaborate.assets/image-20230223142359261.png)
 
