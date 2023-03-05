@@ -475,7 +475,7 @@ From 阿坦:
     如果你的SSH公钥文件的名称与示例代码不同，请修改文件名以符合你当前的设置。在复制你的密钥时，不要添加任何换行或空白。
 
     ```powershell
-    clip < ~/.ssh/id_ed25519.pub
+   cat ~\.ssh\id_ed25519.pub | clip 
     # Copies the contents of the id_ed25519.pub file to your clipboard
     ```
 
