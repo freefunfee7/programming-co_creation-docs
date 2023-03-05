@@ -62,16 +62,16 @@ print('Your number is:', x)
 ```
 
     Please enter a number:  123g
-    
+
 
     Not a valid number. Try again...
-    
+
 
     Please enter a number:  42
-    
+
 
     Your number is: 42
-    
+
 
 这里用一个无限循环中的 `input()` 方法来获取用户输入，然后把输入的字符串用 `int()` 方法转换为一个整数；如果用户没有输入一个整数，`int()` 方法会抛出一个 `ValueError`，于是执行 `except ValueError` 后面的代码块，打印一个提示，然后继续 `while True`，再次提示用户输入；如果 `try` 代码段里第一句执行成功（用户输入成功转换为整数并赋值给 x 变量），那就继续执行后面一句 `break` 终止循环，继续执行其他代码（这时候 x 里面已经有了用户输入的整数）。
 
@@ -89,7 +89,7 @@ except ZeroDivisionError as err:
 ```
 
     Handling run-time error: division by zero
-    
+
 
 这个例子展示了用 `except ZeroDivisionError as err` 这样的语法来取得一个 `err` 对象，这个对象是系统定义的 `Exception` 类型或者子类，里面存放着发生异常时的具体上下文信息，可以打印出来也可以做别的处理。
 

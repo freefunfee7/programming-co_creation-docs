@@ -8,7 +8,7 @@
 
 对话机器人的实质是什么呢？Siri 是个著名的对话机器人，我们可以和她闲聊，也可以问她问题和请她帮忙设个闹钟啊啥的：
 
-![](assets/siri.png)
+<img src="assets/siri.png" width="300">
 
 对话机器人能够读取我们对它说的话（输入），理解其含义，然后做出合理的回应，然后把回应展示（输出）给我们。对话的主题可以各种各样，以 Siri 为例，主要可以分几类：
 * 通过特定指令让 Siri 操作手机完成特定任务（设闹钟、发邮件等）；
@@ -46,13 +46,13 @@ print(f"Hello {name}!")
 ```
 
     Hi, what is your name?
-    
+
 
      Neo
-    
+
 
     Hello Neo!
-    
+
 
 是不是已经有点对话的样子了？我们可以再写一个类似的，这次引入一点逻辑判断和条件分支：
 
@@ -67,13 +67,13 @@ else:
 ```
 
     How are you today?
-    
+
 
      Good
-    
+
 
     Sorry to hear that
-    
+
 
 在这里用各种输入测试几次，会发现一个小 bug：如果用户输入 *good* 或者 *I'm good* 这种，代码运行是如我们所想，但是如果用户输入的是 *Good*，程序会不认，而输出 *Sorry to hear that*，这显然不合理，源于我们代码中的不严谨，在判断时未考虑大小写问题。修正也很容易，改成下面这样就好了：
 
@@ -88,13 +88,13 @@ else:
 ```
 
     How are you today?
-    
+
 
      Good
-    
+
 
     I'm feeling good too
-    
+
 
 继续，这次我们引入一点随机性来增加乐趣：
 
@@ -109,13 +109,13 @@ print(f"You like {favcolor.lower()}? My favorite color is {random.choice(colors)
 ```
 
     What's your favorite color?
-    
+
 
      Blue
-    
+
 
     You like blue? My favorite color is purple
-    
+
 
 这里用了来自 `random` 模块中的 `choice` 函数，从列表 `colors` 中随机抽选一个元素。
 
@@ -235,7 +235,7 @@ class Garfield:
 ```
 
 这里面有点新东西，我们稍微解释一下：
-* 对话系统可以包含很多个对话 *bot*，我们把它们放在一个实例变量 `self.bots` 中，这是一个列表，就是我们在[介绍循环的一章](p1-5-structure-4.md)提过的一种数据容器，初始化为空列表 `[]`；
+* 对话系统可以包含很多个对话 *bot*，我们把它们放在一个实例变量 `self.bots` 中，这是一个列表，就是我们在[介绍循环的一章](p1-5-structure-4.ipynb)提过的一种数据容器，初始化为空列表 `[]`；
 * 提供 `add()` 方法来往系统中加入 *bot*，加入方法是用列表的 `append()` 方法，如上代码中 `add(self, bot)` 方法定义；
 * 系统中各个 *bot* 的聊天延迟 `wait` 统一设定，在初始化对话系统时通过修改类变量 `Bot.wait` 的值来实现；
 * `run()` 方法是对话系统运行主方法，它先打印一行提示，然后开始一个一个的运行我们加入的 *bot*，即循环调用每个 `bot` 的 `run()` 方法。
@@ -257,27 +257,27 @@ garfield.run()
     This is Garfield dialog system. Let's talk.
     
     Hi, what is your name?
-    
+
 
      Neo
-    
+
 
     Hello Neo
     How are you today?
-    
+
 
      Good
-    
+
 
     I'm feeling good too
     What's your favorite color?
-    
+
 
      Red
-    
+
 
     You like red? My favorite color is yellow
-    
+
 
 这样我们的对话系统雏形就运行起来了，还有点像回事吧？
 
@@ -357,20 +357,20 @@ garfield.run()
     This is Garfield dialog system. Let's talk.
     
     Hi, what is your name?
-    
+
 
      Neo
-    
+
 
     Hello Neo
     [34mThrough recent upgrade I can do calculation now. Input some arithmetic expression to try:[0m
-    
+
 
      24*42
-    
+
 
     [34mDone. Result = 1008[0m
-    
+
 
 是不是比想象的还要简单啊？
 
