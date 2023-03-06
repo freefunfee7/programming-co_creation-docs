@@ -89,11 +89,11 @@ C 语言被公认是最接近机器语言的“高级编程语言”，因为 C 
 
 Python 就是一种解释型语言，在命令行界面运行 `python` 主程序，就会进入一个交互式的界面，输入一行程序立刻可以得到反馈，差不多就是这个样子：
 
-<img src="assets/python-repl.png" width="500">
+![](assets/python-repl.png)
 
 这就是 Python 的解释器界面，这种输入一行执行一行的界面有个通用的名字叫做 *REPL*（*read–eval–print loop* 的缩写），意思是这个程序可以读取（*read*）你的输入、计算（*evaluate*）、然后打印（*print*）结果，循环往复，直到你退出——在上图的界面中，输入 `exit()` 回车，就可以退出 Python 的 *REPL*。
 
-我们还可以把 Python 程序源代码（*source code*）存进一个文件里，然后让解释器直接运行这个文件。打开命令行界面（我们假定你已经[设置好了你的编程环境](x1-setup.md)），执行下面的操作：
+我们还可以把 Python 程序源代码（*source code*）存进一个文件里，然后让解释器直接运行这个文件。打开命令行界面（我们假定你已经[设置好了你的编程环境](./x1-setup.md)），执行下面的操作：
 
 ```shell
 cd ~/Code
@@ -137,7 +137,7 @@ Python 官方解释器的工作原理是上列的第二种，即生成中间代�
 pip install jupyterlab
 ```
 
-然后就可以用 `jupyter lab` 来运行 Jupyter Lab，在里面打开 *notebook* 进行交互式编程的尝试了，最好的办法是[使用我们的学习用书](x2-students-book.md)。
+然后就可以用 `jupyter lab` 来运行 Jupyter Lab，在里面打开 *notebook* 进行交互式编程的尝试了，最好的办法是[使用我们的学习用书](./x2-students-book.md)。
 
 ## 小结
 

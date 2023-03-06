@@ -102,7 +102,7 @@ scoop update
 如果运行这三个命令出现问题（通常红字代表有错误发生），可以参考后面的 **Scoop 相关排错** 一节。
 
 ### 安装 Python
-
+ 
 如果一切无误，我们就可以着手安装 Python 了，运行：
 
 ```powershell
@@ -161,7 +161,7 @@ Visual Studio Code 是微软开发并开源的程序源代码编辑器（以下�
 * 输入 `ls ↩︎`，应该可以看到刚才新建的文件 `hello.py`；
 * 输入 `python hello.py ↩︎` 应该可以看到运行 `hello.py` 程序的结果。
 
-恭喜，你的 Windows 系统已经是 *programming ready* 状态，可以继续[下一步](x2-students-book.md)了。
+恭喜，你的 Windows 系统已经是 *programming ready* 状态，可以继续[下一步](./x2-students-book.md)了。
 
 ## macOS 篇
 
@@ -241,4 +241,4 @@ Visual Studio Code 是微软开发并开源的给程序员用的文本编辑器�
 * 输入 `ls ↩︎`，应该可以看到刚才新建的文件 `hello.py`；
 * 输入 `python3 hello.py` 应该可以看到运行 `hello.py` 程序的结果。
 
-恭喜，你的 macOS 系统已经是 *programming ready* 状态，可以继续[下一步](x2-students-book.md)了。
+恭喜，你的 macOS 系统已经是 *programming ready* 状态，可以继续[下一步](./x2-students-book.md)了。

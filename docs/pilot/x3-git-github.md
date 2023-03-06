@@ -1,6 +1,6 @@
 # Git 与 GitHub 入门
 
-<img src="assets/git-time-machine.png" width="700">
+![](assets/git-time-machine.png)
 
 *Git* 是一个“分布式版本控制系统”——听起来也许跟你没关系，但无论是谁，都会因为能够使用 *git* 而节约时间、提高效率。进而，如果你居然没有一个活跃的 Github 账户，那么你正在错过人类史上前所未有的共同协作时代——半点都没有夸张。同样提供 *git* 工具云服务的还有 Gitlab、Bitbucket 等等。
 
@@ -48,7 +48,7 @@
 
 如果我们想**检取**（*checkout*）某个历史版本来操作，那么只要提供给版本号，*git* 就从仓库里找到对应版本然后把工作目录变成那个版本的样子，我们就可以在这个版本上工作了。
 
-<img src="assets/git-states.png" width="500">
+![](assets/git-states.png)
 
 注意，Git 将整个工作目录视为一个整体，每一个版本对应的都是这个整体的一个快照。当然 Git 做了很多优化，并不会真的存好多份整个目录的内容，所以不用担心 Git 把硬盘都浪费了。
 
@@ -58,11 +58,11 @@
 
 那么如果有很多人呢？通常我们会设置一台电脑作为公共仓库服务器，一个团队成员（通常是负责管理版本的人）**创建**（*init*）好仓库然后“**推送**（*push*）”到公共仓库服务器上，这个服务器上的仓库就成为团队共享的仓库（*team repo*），其他人就可以克隆 *team repo* 到自己的电脑，*team repo* 成为是所有人公共的“**源**（*origin*）”。
 
-<img src="assets/git-local-remote-repos.png" width="700">
+![](assets/git-local-remote-repos.png)
 
 如此这般之后，所有人都可以在自己电脑上工作，在自己的本地仓库中建立新的版本，并在需要时把本地仓库中的版本 **推送**（*push*） 到 *team repo*，也可以从 *team repo* **抓取**（*pull*） 其他人提交的版本到自己的本地仓库。如果这个过程中产生了**冲突**（*conflict*），比如两个人提交的两个版本中有对同一个文件的不相容的修改，有多种选项来进行解决。
 
-<img src="assets/git-pull-push.png" width="350">
+![](assets/git-pull-push.png)
 
 ## Git 基本用法：A Tutorial
 
@@ -182,7 +182,7 @@ git commit
 
 这个命令会 commit 目前在 *staging area* 的任何文件变化到版本仓库，在实际执行前会打开文本编辑器让我们输入 *commit message* 也就是版本说明：
 
-<img src="assets/git-commit-message.png" width="700">
+![](assets/git-commit-message.png)
 
 在提示光标处输入我们对这个版本的描述信息，保存并关闭编辑器窗口之后 *git* 才会执行 *commit* 指令。版本信息非常重要，应该准确、扼要的概括我们所做的修改，这样后续我们管理历史版本时会少很多麻烦。
 
@@ -319,7 +319,7 @@ git log
 
 结果大致这样：
 
-<img src="assets/git-log.png" width="600">
+![](assets/git-log.png)
 
 `git log` 命令列出了版本仓库中已有的 *commit history*，每一个 *commit* 一段，从新到旧排列（最后的 *commit* 在最上面）。最新的 *commit* 后面有个 `HEAD -> master` 的标志，这个和分支有关，我们后面会讲。
 
@@ -350,7 +350,7 @@ git diff 7451a00 5d4f3df
 
 前一行命令比较指定 *commit* 和工作目录当前状态，第二行命令比较两个指定的 *commit*。输出的内容是一种专门的 *diff format*，是 Unix 系统做文件比较的标准输出格式，其中列出了有差异的文件，以及这些文件中有差异的行，列出了哪些行是新增，哪些行被删除，那些行有变化。对于现在的你来说这个格式可能有点难懂，没有关系，以后会熟悉起来的，而且 VSCode 提供了图形化的界面来做文件比较和合并，很多时候也更好用一些。
 
-<img src="assets/git-diff.png" width="600">
+![](assets/git-diff.png)
 
 这个简单的 *tutorial* 就到此结束，下面我们介绍非常重要的**分支**（*branch*）概念及其在协同中的用法，还有如何利用 GitHub 来简化分享与协同。
 
@@ -394,7 +394,7 @@ git tag v0.9 5d4f3df
 
 举个例子来说，一个产品的 v1.0 版本上线之后，开始继续开发 v2.0 的新功能，这是一条线；当发现 v1.0 的一些错误时（不论自己发现还是用户报告），就需要立刻处理立刻修复，这时候不可能在新功能开发的基础上去修问题，而是要在 v1.0 那个版本基础上去修复，修复好的版本 v1.0.1 发布到生产环境上。这样新功能开发和老功能修错互不影响，到合适时候把 v1.0.1 的修改合并到 v2.0 的代码中就好了。这个逻辑大致上就像这样：
 
-<img src="assets/git-branches-1.png" width="800">
+![](assets/git-branches-1.png)
 
 分支是在比较复杂的工作任务中一定会出现的需求，事实上 *git* 以前的版本控制工具也都支持分支，但是它们建立分支的代价很高，要占用很多存储空间，执行也很慢，而 *git* 使用了一种非常聪明的方法来处理分支，使得分支变得很轻，可以随心所欲的使用分支，事实上 *git* 的理念是高度鼓励使用分支的，凡要做点新事情都可以开分支，在不影响其他人和其他任务的情况下用一个独立的分支去试，试好了再合并回主分支就好了，那么 *git* 是怎么做到的呢？
 
@@ -414,7 +414,7 @@ git branch bug/fix1
 
 `git branch` 在当前 *commit* 上创建分支，注意创建分支并不会自动切换到新创建的分支，目前我们还工作在 `master` 分支，`HEAD` 指针指向 `master` 分支，这时候 repo 的状态是这样的：
 
-<img src="assets/git-branches-2.png" width="500">
+![](assets/git-branches-2.png)
 
 由于我们现在需要尽快修复 bug，所以我们需要切换到新创建的 `bug/fix1` 分支，这需要用 `checkout` 命令：
 
@@ -424,11 +424,11 @@ git checkout bug/fix1
 
 切换分支其实就是让 `HEAD` 指针指向该分支：
 
-<img src="assets/git-branches-3.png" width="500">
+![](assets/git-branches-3.png)
 
 这时候 `HEAD` 指向的 `bug/fix1` 分支指针就会跟着我们提交的新 *commit* 走了，比如我们提交了新的 `f843665` 号 *commit*，就会变成这样：
 
-<img src="assets/git-branches-4.png" width="500">
+![](assets/git-branches-4.png)
 
 假定 `f843665` 号 *commit* 成功修复了 bug，我们在 `bug/fix1` 分支上的工作告一段落，需要切回主分支：
 
@@ -438,11 +438,11 @@ git checkout master
 
 于是 `HEAD` 指针指回 `master` 分支：
 
-<img src="assets/git-branches-5.png" width="500">
+![](assets/git-branches-5.png)
 
 现在轮到 `master` 分支指针跟着我们提交的新 *commit* 走了：
 
-<img src="assets/git-branches-6.png" width="800">
+![](assets/git-branches-6.png)
 
 如果是多人协同的情况，上述两个分支上的工作甚至可以同时进行，只要一个人在自己机器上让 `HEAD` 指向 `master` 分支，TA就工作在 `master` 分支上；另一个人让 `HEAD` 指向 `bug/fix1` 分支，TA就工作在 `bug/fix1` 分支上；两人的工作都可以 *push* 回 *team repo*，互不影响。
 

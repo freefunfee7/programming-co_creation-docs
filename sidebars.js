@@ -43,7 +43,7 @@ const sidebars = {
         "p1/p1-4-operators",
         "p1/p1-5-functions",
         "p1/p1-6-mixin-bot",
-        "p1/p1-7-if",
+        // "p1/p1-7-if",
       ],
       collapsible: false,
     },
