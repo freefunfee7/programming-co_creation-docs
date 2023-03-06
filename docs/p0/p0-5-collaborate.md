@@ -13,7 +13,8 @@ sidebar_position: 5
 
 :::info 信息
 
-[视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频01](https://www.bilibili.com/video/BV1Q8411F7sM/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频02](https://www.bilibili.com/video/BV1iM4y1d7AY/?share_source=copy_web&vd_source=f5da62d2d3da1b89311b5c816a19aa3d)
 :::
 
 ## 1.安装Git
@@ -170,13 +171,21 @@ git config --global user.name "Your Name"
 
    ![image-20230223141719328](./p0-5-collaborate.assets/image-20230223141719328.png)
 
-4. 然后Git和Github的通信，就可以通过SSH进行了：123
+4. 然后Git和Github的通信，就可以通过SSH进行了：
 
-   ![image-20230223142359261](./p0-5-collaborate.assets/image-20230223142359261.png)
+   ``` powershell
+   ssh -T git@github.com
+   ```
+
+   ![image-20230305160315861](./p0-5-collaborate.assets/image-20230305160315861.png)
+
+
+   
 
 ### 2.2.Mac
 
 **1.验证本地电脑是否存在 SSH 密钥**
+
    1. 列出 `.ssh` 文件夹下的所有文件
       ```bash
       ls -al ~/.ssh 
