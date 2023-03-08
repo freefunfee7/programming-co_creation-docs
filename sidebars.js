@@ -56,7 +56,13 @@ const sidebars = {
     {
       type: "category",
       label: "3.扩展资料",
-      items: ["extend/intro","extend/git-basic","extend/vscode-extentions","extend/Typora-Screenshot"],
+      items: [
+        "extend/intro",
+        "extend/git-basic",
+        "extend/vscode-extentions",
+        "extend/Typora-Screenshot",
+        "extend/pull-request",
+      ],
       // collapsible: false,
     },
     {

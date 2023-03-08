@@ -1,7 +1,9 @@
-### Pull requests（简称PR）
+---
+title: Pull requests（简称PR）
+---
 
 :::tip 提示
-本内容默认已完成[5.通过Github共创]()：
+本内容默认已完成[5.通过Github共创](../p0/p0-5-collaborate.md)：
 1. 安装Git
 2. Git的初始配置
 3. 为Github配置SSH登录
