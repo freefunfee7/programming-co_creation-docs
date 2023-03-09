@@ -20,6 +20,7 @@ const sidebars = {
 
   tutorialSidebar: [
     "intro",
+    "announce",
     {
       type: "category",
       label: "0.准备篇",
