@@ -40,7 +40,13 @@ client.loopBlaze({
 
 
 
-Python代码：
+## 逻辑表达式
+
+值为布尔值的式子
+
+
+
+## Python代码
 
 ```python
 a = 5
@@ -64,12 +70,13 @@ else:
 
 请大家想想下面的代码，会收到什么回复？请解释一下为什么？
 
-```
+```js
 if( msg.data === "你好"){
-	client.sendmessagetext(msg.userid, "你也好！")
+	client.sendmessagetext(msg.user_id, "你也好！")
 } else if (msg.data === "你好"){
-	client.sendmessagetext(msg.userid, "我是编程学习小助手")
+	client.sendmessagetext(msg.user_id, "我是编程学习小助手")
 } else {
-    client.sendmessagetext(msg.userid, "我不知道你在说什么")
+    client.sendmessagetext(msg.user_id, "我不知道你在说什么")
 }
 ```
+
