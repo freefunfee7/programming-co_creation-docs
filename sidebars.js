@@ -69,7 +69,7 @@ const sidebars = {
     {
       type: "category",
       label: "4.周会",
-      items: ["weekly-meeting/20230223"],
+      items: ["weekly-meeting/20230309","weekly-meeting/20230223"],
     },
     {
       type: "category",
