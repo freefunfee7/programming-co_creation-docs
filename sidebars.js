@@ -64,6 +64,7 @@ const sidebars = {
         "extend/Typora-Screenshot",
         "extend/pull-request",
         "extend/github-edit-name",
+        "extend/assignment-submit-guide",
       ],
       // collapsible: false,
     },
