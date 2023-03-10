@@ -63,6 +63,7 @@ const sidebars = {
         "extend/vscode-extentions",
         "extend/Typora-Screenshot",
         "extend/pull-request",
+        "extend/github-edit-name",
       ],
       // collapsible: false,
     },
