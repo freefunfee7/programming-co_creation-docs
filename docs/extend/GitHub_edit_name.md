@@ -10,7 +10,9 @@
 
 ![1678457295925](image/GitHub_edit_name/1678457295925.png)
 
-## 3. 点击网页右上角的头像，出现用户名，点击  
+## 3. 点击网页右上角的头像，出现用户名，点击
+
+![1678459473894](image/GitHub_edit_name/1678459473894.png)
 
 ## 4. Edit profile
 
@@ -20,6 +22,6 @@
 
 ![1678457423731](image/GitHub_edit_name/1678457423731.png)
 
-## 6.修改用户Name，跟Mixin保持一致，Save
+## 6.核查：如果名字显示跟Mixin一致即可。
 
 ![1678457450000](image/GitHub_edit_name/1678457450000.png)
