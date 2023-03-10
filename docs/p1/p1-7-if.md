@@ -3,7 +3,6 @@ title: 7.逻辑判断与分支
 ---
 
 :::info 信息
-[教材](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/pilot/p1-3-structure-2#%E5%87%BD%E6%95%B0)
 [视频](https://www.bilibili.com/video/BV1Hx4y1F7pH/?vd_source=4a888db8814702b2062fcaf2575be745)
 :::
 
@@ -17,11 +16,11 @@ title: 7.逻辑判断与分支
 client.loopBlaze({
   onMessage(msg) {
     if (msg.data === "你好") {
-      client.sendmessagetext(msg.user_id, "你也好！");
+      client.sendMessageText(msg.user_id, "你也好！");
     } else if (msg.data === "你是谁") {
-      client.sendmessagetext(msg.user_id, "我是编程学习小助手");
+      client.sendMessageText(msg.user_id, "我是编程学习小助手");
     } else {
-      client.sendmessagetext(msg.user_id, "我不知道你在说什么");
+      client.sendMessageText(msg.user_id, "我不知道你在说什么");
     }
   },
   onAckReceipt() {},
@@ -72,11 +71,11 @@ else:
 
 ```js
 if( msg.data === "你好"){
-	client.sendmessagetext(msg.user_id, "你也好！")
+	client.sendMessageText(msg.user_id, "你也好！")
 } else if (msg.data === "你好"){
-	client.sendmessagetext(msg.user_id, "我是编程学习小助手")
+	client.sendMessageText(msg.user_id, "我是编程学习小助手")
 } else {
-    client.sendmessagetext(msg.user_id, "我不知道你在说什么")
+    client.sendMessageText(msg.user_id, "我不知道你在说什么")
 }
 ```
 
