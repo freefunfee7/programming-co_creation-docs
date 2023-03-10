@@ -20,6 +20,7 @@ const sidebars = {
 
   tutorialSidebar: [
     "intro",
+    "announce",
     {
       type: "category",
       label: "0.准备篇",
@@ -36,8 +37,16 @@ const sidebars = {
     {
       type: "category",
       label: "1.基础篇",
-      items: ["p1/example"],
-      // collapsible: false,
+      items: [
+        "p1/p1-1-repl",
+        "p1/p1-2-values-variables",
+        "p1/p1-3-ide",
+        "p1/p1-4-operators",
+        "p1/p1-5-functions",
+        "p1/p1-6-mixin-bot",
+        "p1/p1-7-if",
+      ],
+      collapsible: false,
     },
     {
       type: "category",
@@ -47,16 +56,20 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "测试区",
+      label: "3.扩展资料",
       items: [
-        "test/intro",
-        {
-          type: "category",
-          label: "测试文件夹1",
-          items: ["test/test_folder1/file1"],
-          collapsible: false,
-        },
+        "extend/intro",
+        "extend/git-basic",
+        "extend/vscode-extentions",
+        "extend/Typora-Screenshot",
+        "extend/pull-request",
       ],
+      // collapsible: false,
+    },
+    {
+      type: "category",
+      label: "4.周会",
+      items: ["weekly-meeting/20230309","weekly-meeting/20230223"],
     },
     {
       type: "category",

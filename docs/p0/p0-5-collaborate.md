@@ -13,37 +13,135 @@ sidebar_position: 5
 
 :::info 信息
 
-[视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频01](https://www.bilibili.com/video/BV1Q8411F7sM/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频02](https://www.bilibili.com/video/BV1iM4y1d7AY/?share_source=copy_web&vd_source=f5da62d2d3da1b89311b5c816a19aa3d)
 :::
 
 ## 1.安装Git
 
 ### 1.1.Windows
 
-**方式一**：访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
+访问：[Git - 下载地址](https://git-scm.com/download/win)，如下图，选择“64-bit Git for Windows Setup”下载安装。
 
 ![83784115-1e37-494a-bc8c-19b80dfe2303](./p0-5-collaborate.assets/83784115-1e37-494a-bc8c-19b80dfe2303.png)
 
 
 
-**方式二**：如果已经安装了 scoop 的话，可以直接在 PowerShell 里使用命令：`scoop install git`.
 
+命令行如果输入`git --version`后有返回 git 版本，表示安装成功：
 
-
-**检查是否成功安装**
-
-
-命令行如果输入`git --version`后有返回 git 版本，表示安装成功
-
-![gitVersion](https://assets.quill.im/g1wnnoy560ywst8xcq3ik4nqgrc8)
+![image-20230304212442152](./p0-5-collaborate.assets/image-20230304212442152.png)
 
 
 
 ### 1.2.Mac
 
-> Mac的Git安装待补充
+> 推荐新手安装 Git 时，**先使用方式三。**
+> 后面进阶安装了 Mac 包管理器 Homebrew 或 MacPorts 时，再尝试使用方式一或方式二。
 
+#### 方式一：通过 Homebrew 命令安装
+```bash
+brew install git
+```
 
+#### 方式二：通过 MacPorts 命令安装
+```bash
+sudo port install git
+```
+
+#### 方式三：通过安装包安装 Git
+- 点击 [Git 官方下载地址 ](https://git-scm.com/downloads) 进入官网下载页面，单击选择 macOS
+
+![download](p0-5-collaborate.assets/mac_install_git_1-download.png)
+
+- 进入之后，如下图，提供了三种安装方式。其中，前两种方式在这里不做说明，如果已安装 Homebrew 或 MacPorts，可以自行使用对应的命令进行安装。
+
+  本安装教程只针对通过图形化界面方式安装 Git 的讲解，也就是方式三。
+
+![install_style](p0-5-collaborate.assets/mac_install_git_2-install_style.png)
+
+- 点击上面第三个框中箭头所指的 [installer](https://sourceforge.net/projects/git-osx-installer/)，会进入下面的界面。
+
+  > 注意：这里安装的 Git 版本为 2.33.0，并不是最新的版本，但也并没有太大影响。
+
+![git-osx-installer](p0-5-collaborate.assets/mac_install_git_3-git-osx-installer.png)
+
+- 点击上面页面中箭头所指的方框中 Download 按钮，页面会刷新，出现下方图片中的倒计时提示。![wait_time](p0-5-collaborate.assets/mac_install_git_4-wait_time.png)
+
+- 倒数 5 秒后，系统会弹出一个窗口，让你选择你想将安装包放到保存到什么位置。
+
+  选择好你要保存的位置后，点击窗口右下角的保存按钮。![choose_install_location](p0-5-collaborate.assets/mac_install_git_5-choose_install_location.png)
+
+- 等待下载完毕后，打开 Finder，找到你保存安装包的位置，会看到一个以 `.dmg` 结尾的安装包文件。然后，双击 `.dmg` 文件。
+
+  > dmg 是 Mas 系统上的压缩镜像文件扩展名
+
+  ![double_click](p0-5-collaborate.assets/mac_install_git_6-double_click.png)
+
+- 会弹出下图中的安装窗口，窗口中会出现三个文件，只需要双击 `.pkg` 结尾的文件。
+
+  > 其他两个文件，如果好奇可以点开看看。这两个文件并不影响安装 Git。
+
+  ![double_click](p0-5-collaborate.assets/mac_install_git_7-double_click-.png)
+
+- 这个时候，会出现下面的安装窗口。
+
+  - 欢迎界面，直接点窗口右下角的继续按钮即可。
+
+    ![8-1-install](p0-5-collaborate.assets/mac_install_git_8-1-install.png)
+
+  - 这一步是选择安装的磁盘位置
+
+    ![8-2-install](p0-5-collaborate.assets/mac_install_git_8-2-install.png)
+
+  - 这一步是确认安装。
+
+    如果上一步选择磁盘时选择错了，这个时候可以通过 Go Back 按钮返回到上一个安装步骤。
+
+    也可以通过 Change Install Location 来更改安装位置。
+
+    选择完毕后，点击 安装install 按钮。
+
+    ![8-3-install](p0-5-collaborate.assets/mac_install_git_8-3-install.png)
+
+  - 这个时候会弹出一个安全提示，需要你使用指纹或者手动输入密码，来安装新软件。
+
+    > 安装新软件时，通常都会弹出这个安全提示框，需要你使用指纹或密码来确认安装。不用担心。
+
+    ![8-4-install](p0-5-collaborate.assets/mac_install_git_8-4-install.png)
+
+  - 点了上面的安装按钮之后，会自动进行安装。
+
+    安装完毕之后，会出现下面的界面，提示你安装成功了。
+
+    ![8-5-install](p0-5-collaborate.assets/mac_install_git_8-5-install_success.png)
+
+- 点击上图右下角的关闭窗口按钮，会出现下面的弹窗提示，这是系统在询问你要不要将安装包丢到垃圾桶中。按需选择即可。
+
+  > 一般在安装新软件成功后，可以删除无用的安装包，当然也可以保留。
+
+  ![move_to_trash](p0-5-collaborate.assets/mac_install_git_9-move_to_trash.png)
+
+- 最后一步，打开`Terminal`，也就是命令行终端，输入命令 `git --version`。
+
+  出现 Git 版本号，说明安装 Git 成功了。
+
+  ![git_version](p0-5-collaborate.assets/mac_install_git_10-git_version.png)
+
+### 1.3.Git的初始配置
+
+如果是第一次安装使用Git，后面在使用Git将本地内容推送到Github的时候，会提示需要设置Git的邮箱和用户名，所以，我们可以安装好后就直接配置好自己的信息。
+
+将"you@example.com" 替换成你的Github邮箱，将"Your Name"替换成你的名字，在终端执行一下就可以了。
+
+```powershell
+git config --global user.email "you@example.com" 
+git config --global user.name "Your Name"
+```
+
+比如这样：
+
+![image-20230225210032987](./p0-5-collaborate.assets/image-20230225210032987.png)
 
 ## 2.为Github配置SSH登录
 
@@ -75,11 +173,19 @@ sidebar_position: 5
 
 4. 然后Git和Github的通信，就可以通过SSH进行了：
 
-   ![image-20230223142359261](./p0-5-collaborate.assets/image-20230223142359261.png)
+   ``` powershell
+   ssh -T git@github.com
+   ```
+
+   ![image-20230305160315861](./p0-5-collaborate.assets/image-20230305160315861.png)
+
+
+   
 
 ### 2.2.Mac
 
 **1.验证本地电脑是否存在 SSH 密钥**
+
    1. 列出 `.ssh` 文件夹下的所有文件
       ```bash
       ls -al ~/.ssh 
@@ -180,7 +286,13 @@ sidebar_position: 5
 
 > Github 官方文档：[connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## 3.将仓库Fork到自己的GitHub账户
+## 3.流程图
+
+遇到问题，就回来看看整体过程的流程图，帮助捋顺整体逻辑。
+
+![a106e3bc-f0c3-4a2b-955f-9185efe82154](./p0-5-collaborate.assets/a106e3bc-f0c3-4a2b-955f-9185efe82154.png)
+
+## 4.将仓库Fork到自己的GitHub账户
 
 1. 点击“programming-co_creation-docs”Github仓库页面中的”Fork“按钮：
 
@@ -198,7 +310,7 @@ sidebar_position: 5
 
 
 
-## 4.从自己的Github克隆知识库到本地
+## 5.从自己的Github克隆知识库到本地
 
 1. 点击自己Github账号下该仓库页面的”Code“——”SSH”，然后复制这个SSH地址，强调一下，地址是以git@开头，不是以Https开头的：
 
@@ -218,7 +330,7 @@ sidebar_position: 5
 
    
 
-## 5.在本地修改内容
+## 6.在本地修改内容
 
 文档库中显示的文档都在`programming-co_creation-docs`内的`docs`文件夹内，之后就可以编辑这些文件夹内的Markdown格式的文件，参与共创。
 
@@ -238,11 +350,15 @@ sidebar_position: 5
 
 3. 又或者，可以右键点击文件，选择“Open in External App”，我安装了Typora，会用Typora打开Markdown文件进行编辑：
 
+   > 注意，这里大家的VSCode会没有“Open in External App”这个选项，需要在VSCode的Extentions里面安装“Open in External App”这个插件。
+   >
+   > ![image-20230227220449127](./p0-5-collaborate.assets/image-20230227220449127.png)
+
    ![image-20230223103317649](./p0-5-collaborate.assets/image-20230223103317649.png)
 
    ![image-20230223103413544](./p0-5-collaborate.assets/image-20230223103413544.png)
 
-## 6.将本地内容提交到自己的Github仓库
+## 7.将本地内容提交到自己的Github仓库
 
 当我们完成内容的修改后，就需要把自己本地的内容，提交到自己的Github仓库
 
@@ -281,7 +397,7 @@ sidebar_position: 5
 
 
 
-## 7.将自己的修改提交到共学共创仓库（Pull Request）
+## 8.将自己的修改提交到共学共创仓库（Pull Request）
 
 下一步，就是要将自己的仓库，提交给共学共创仓库，我们把这个过程叫“Pull Request”，简称PR
 
@@ -303,7 +419,15 @@ sidebar_position: 5
 
    ![image-20230223110036786](./p0-5-collaborate.assets/image-20230223110036786.png)
 
+## 9.冲突处理
+
+
+
+
+
+
 ------
+
 
 ## 补充：
 
@@ -360,7 +484,7 @@ From 阿坦:
     如果你的SSH公钥文件的名称与示例代码不同，请修改文件名以符合你当前的设置。在复制你的密钥时，不要添加任何换行或空白。
 
     ```powershell
-    clip < ~/.ssh/id_ed25519.pub
+   cat ~\.ssh\id_ed25519.pub | clip 
     # Copies the contents of the id_ed25519.pub file to your clipboard
     ```
 
