@@ -24,7 +24,9 @@
 
 4. 如下图，打了马赛克的部分就是生成的Token，点击复制按钮，复制生成的Token并保存下来，后面会用，注意，请妥善保管Token，拥有Token相当于可以操作你的Github仓库，当然，如果泄露，点击`Delete`删除重新创建即可
 
-   ![image-20230310221416731](C:\Users\vwumumu\AppData\Roaming\Typora\typora-user-images\image-20230310221416731.png)
+   ![](https://raw.githubusercontent.com/vwumumu/images/master/20230311124540.png)
+   
+   
 
 ## 3.设置PicGo
 
