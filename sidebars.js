@@ -56,7 +56,13 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "3.扩展资料",
+      label: "3.作业",
+      items: ["homework/1-5"],
+      // collapsible: false,
+    },
+    {
+      type: "category",
+      label: "4.扩展资料",
       items: [
         "extend/intro",
         "extend/git-basic",
@@ -70,7 +76,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "4.周会",
+      label: "5.周会",
       items: ["weekly-meeting/20230309","weekly-meeting/20230223"],
     },
     {

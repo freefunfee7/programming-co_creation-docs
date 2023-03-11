@@ -1,6 +1,5 @@
 ---
 title: 介绍
-sidebar_position: 1
 ---
 
 ## 快速入口
@@ -34,6 +33,19 @@ sidebar_position: 1
 - 1-6.[做个Mixin机器人](./p1/p1-6-mixin-bot.md)
 - 1-7.[逻辑判断与分支](./p1/p1-7-if.md)
 
+### 作业
+
+- 1-5.[函数](./homework/1-5.md)
+
+### 扩展资料
+
+- [01.git的基本用法](./extend/git-basic.md)
+- [02.VSCode插件](./extend/vscode-extentions.md)
+    - [Wakatime](./extend/vscode-extentions.md#wakatime)
+- [03.Typora+截图工具的最佳实践](./extend/Typora-Screenshot.md)
+
+
+
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
 我已将教材转化为 Markdown 格式
@@ -46,10 +58,3 @@ sidebar_position: 1
 - [第九章 理解对象与类：Python 篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-9-oo-3.ipynb)
 - [第十章 字符与字符串](https://github.com/coding-newbies-group/pilot/blob/master/p1-a-string.ipynb)
 - [最十一章 课程练习](https://github.com/coding-newbies-group/pilot/blob/master/p1-b-final.ipynb)
-
-### 扩展资料
-
-- [01.git的基本用法](./extend/git-basic.md)
-- [02.VSCode插件](./extend/vscode-extentions.md)
-    - [Wakatime](./extend/vscode-extentions.md#wakatime)
-- [03.Typora+截图工具的最佳实践](./extend/Typora-Screenshot.md)

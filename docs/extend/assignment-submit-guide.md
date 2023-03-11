@@ -54,9 +54,9 @@
 
    ![image-20230310230531416](https://raw.githubusercontent.com/vwumumu/images/master/image-20230310230531416.png)
 
-3. 有时点击`验证图片上传选项`会失败，可以直接在Typora中截图测试，如果截图后粘贴进Typora显示类似如下图片路径，则是成功了，意味着图片是存在github上的
+3. 出现如下结果表示配置成功，有时点击`验证图片上传选项`会失败，原因是已经验证过，再次点击验证时实际上上传了同名文件，所以会报错，可以直接用typora插入图片测试，看图片地址是否是github上的地址，而不是本地地址
 
-   ![image-20230310231421481](https://raw.githubusercontent.com/vwumumu/images/master/image-20230310231421481.png)
+   ![](https://raw.githubusercontent.com/vwumumu/images/master/20230311125529.png)
 
 ## 5.用Typora回答编程学习的作业
 
