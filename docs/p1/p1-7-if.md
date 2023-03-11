@@ -3,7 +3,7 @@ title: 7.逻辑判断与分支
 ---
 
 :::info 信息
-[视频](https://www.bilibili.com/video/BV1Hx4y1F7pH/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频](https://v.youku.com/v_show/id_XNTk0Nzc3OTk4OA==.html)
 :::
 
 
