@@ -1,4 +1,7 @@
-# GitHub修改用户Name教程
+---
+title: GitHub修改用户Name教程
+---
+
 
 ## 1. 登录个人GitHub
 

@@ -43,7 +43,10 @@ title: 介绍
 - [02.VSCode插件](./extend/vscode-extentions.md)
     - [Wakatime](./extend/vscode-extentions.md#wakatime)
 - [03.Typora+截图工具的最佳实践](./extend/Typora-Screenshot.md)
-
+- [04.编程作业提交指南](./extend/assignment-submit-guide.md)
+- [05.Jupyter Notebook转markdown](./extend/ipynb-to-md.md)
+- [06.GitHub修改用户Name教程](./extend/github-edit-name.md)
+- [07.Snipaste: 一款截图神器](./extend/snipaste.md)
 
 
 :::tip 提示
