@@ -61,7 +61,7 @@ else:
 
 ## 课程用到的代码
 
-[coding-newbies-group/learn-code at 1-7](https://github.com/coding-newbies-group/learn-code/blob/1-7/index.js)
+[coding-newbies-group/learn-code at 1-7](https://github.com/coding-newbies-group/learn-code/blob/main/1-7.js)
 
 
 
