@@ -53,6 +53,8 @@ title: 介绍
 - [05.GitHub修改用户Name教程](./extend/05.github-edit-name.md)
 - [06.Snipaste: 一款截图神器](./extend/06.snipaste.md)
 - [07.Pull requests（简称PR）](./extend/07.pull-request.md)
+- [08.set-environment-variable-in-CLI](./extend/set-environment-variable-in-CLI.md)
+
 
 
 :::tip 提示
