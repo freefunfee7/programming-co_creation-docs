@@ -69,16 +69,12 @@ const sidebars = {
       items: [
         "extend/git-basic",
         "extend/vscode-extentions",
-        "extend/Typora-Screenshot",
-        "extend/pull-request",
-        "extend/github-edit-name",
-        "extend/assignment-submit-guide",
+        "extend/typora-screenshot",
         "extend/ipynb-to-md",
         "extend/github-edit-name",
         "extend/snipaste",
-        "extend/pull-reques",
+        "extend/pull-request",
         "extend/set-environment-variable-in-CLI",
-
       ],
       collapsible: false,
     },

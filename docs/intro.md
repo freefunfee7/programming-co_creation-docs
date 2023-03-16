@@ -30,7 +30,7 @@ title: 介绍
 - 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md) | [视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 1-4.[操作符](./p1/p1-4-operators.md)
 - 1-5.[函数](./p1/p1-5-functions.md)
-- 1-6.[做个Mixin机器人](./p1/p1-6-mixin-bot.md)
+- 1-6.[做个 Mixin 机器人](./p1/p1-6-mixin-bot.md)
 - 插播-1.[编程作业提交指南](./extend/assignment-submit-guide.md)
 - 1-7.[逻辑判断与分支](./p1/p1-7-if.md)
 - 1-8.[逻辑运算符](./p1/p1-8-logical.md)
@@ -45,17 +45,15 @@ title: 介绍
 扩展资料为非必学项
 :::
 
-- [01.git的基本用法](./extend/01.git-basic.md)
-- [02.VSCode插件](./extend/02.vscode-extentions.md)
-    - [Wakatime](./extend/02.vscode-extentions.md#wakatime)
+- [01.git 的基本用法](./extend/01.git-basic.md)
+- [02.VSCode 插件](./extend/02.vscode-extentions.md)
+  - [Wakatime](./extend/02.vscode-extentions.md#wakatime)
 - [03.Typora+截图工具的最佳实践](./extend/03.typora-screenshot.md)
-- [04.Jupyter Notebook转markdown](./extend/04.ipynb-to-md.md)
-- [05.GitHub修改用户Name教程](./extend/05.github-edit-name.md)
+- [04.Jupyter Notebook 转 markdown](./extend/04.ipynb-to-md.md)
+- [05.GitHub 修改用户 Name 教程](./extend/05.github-edit-name.md)
 - [06.Snipaste: 一款截图神器](./extend/06.snipaste.md)
-- [07.Pull requests（简称PR）](./extend/07.pull-request.md)
-- [08.set-environment-variable-in-CLI](./extend/set-environment-variable-in-CLI.md)
-
-
+- [07.Pull requests（简称 PR）](./extend/07.pull-request.md)
+- [08.如何给 CLI 设置全局变量](./extend/08.set-environment-variable-in-CLI.md)
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
@@ -63,23 +61,9 @@ title: 介绍
 :::
 
 - [第五章 程序的基本结构（四）：循环](./pilot/p1-5-structure-4.md)
-<<<<<<< HEAD
 - [第六章 程序的基本结构（五）：异常处理](./pilot/p1-6-structure-5.md)
 - [第七章 理解对象与类：起源篇](./pilot/p1-7-oo-1.md)
 - [第八章 理解对象与类：概念篇](./pilot/p1-8-oo-2.md)
 - [第九章 理解对象与类：Python 篇](./pilot/p1-9-oo-3.md)
 - [第十章 字符与字符串](./pilot/p1-a-string.md)
 - [最十一章 课程练习](./pilot/p1-b-final.md)
-
-### 学习笔记
-
-- [01.Example](./notes/example.md)
-- [这是测试的内容]
-=======
-- [第六章 程序的基本结构（五）：异常处理](https://github.com/coding-newbies-group/pilot/blob/master/p1-6-structure-5.ipynb)
-- [第七章 理解对象与类：起源篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-7-oo-1.ipynb)
-- [第八章 理解对象与类：概念篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-8-oo-2.ipynb)
-- [第九章 理解对象与类：Python 篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-9-oo-3.ipynb)
-- [第十章 字符与字符串](https://github.com/coding-newbies-group/pilot/blob/master/p1-a-string.ipynb)
-- [最十一章 课程练习](https://github.com/coding-newbies-group/pilot/blob/master/p1-b-final.ipynb)
->>>>>>> f7cd20c87e1101e434ab170cbbee01627aec5c78
