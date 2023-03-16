@@ -47,6 +47,7 @@ title: 介绍
 - [05.Jupyter Notebook转markdown](./extend/ipynb-to-md.md)
 - [06.GitHub修改用户Name教程](./extend/github-edit-name.md)
 - [07.Snipaste: 一款截图神器](./extend/snipaste.md)
+- [set-environment-variable-in-CLI](./extend/set-environment-variable-in-CLI.md)
 
 
 :::tip 提示
