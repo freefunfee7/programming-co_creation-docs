@@ -9,7 +9,9 @@ title: 6.做个Mixin机器人
 [Mac版教程](./p1-6-2-mixinbot-mac.md)
 
 
+## 作业
 
+回复你做成机器人的截图到 [作业1-6：做个Mixin机器人](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/102)
 
 
 

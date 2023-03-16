@@ -2,6 +2,11 @@
 title: 8.逻辑运算符
 ---
 
+:::info 信息
+[视频](https://v.youku.com/v_show/id_XNTk1MDE2OTE0MA==.html)
+:::
+
+
 ```js
 client.loopBlaze({
   onMessage(msg) {
@@ -146,6 +151,9 @@ if (not (a < b)):  # a<b是真
     print("not可以把假变成真")
 ```
 
+## 课程用到的代码
+
+[coding-newbies-group/learn-code at 1-8](https://github.com/coding-newbies-group/learn-code/blob/main/1-8.js)
 
 
 ## 作业：
