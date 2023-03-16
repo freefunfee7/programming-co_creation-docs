@@ -108,7 +108,7 @@ title: Pull requests（简称PR）
 
 当点击`Pull requests`时，会提示有冲突，需要解决。
 
-请MUMU帮忙制造这个场景。提交一个新的PR
+
 
 #### 场景三：
 本地仓库编辑内容期间，有其他共创成员给原仓库提交了`Pull requests`且修改的文件与你本地仓库编辑的文件是相同的文件，且PR被主仓库merge合并了。
