@@ -61,9 +61,23 @@ title: 介绍
 :::
 
 - [第五章 程序的基本结构（四）：循环](./pilot/p1-5-structure-4.md)
+<<<<<<< HEAD
+- [第六章 程序的基本结构（五）：异常处理](./pilot/p1-6-structure-5.md)
+- [第七章 理解对象与类：起源篇](./pilot/p1-7-oo-1.md)
+- [第八章 理解对象与类：概念篇](./pilot/p1-8-oo-2.md)
+- [第九章 理解对象与类：Python 篇](./pilot/p1-9-oo-3.md)
+- [第十章 字符与字符串](./pilot/p1-a-string.md)
+- [最十一章 课程练习](./pilot/p1-b-final.md)
+
+### 学习笔记
+
+- [01.Example](./notes/example.md)
+- [这是测试的内容]
+=======
 - [第六章 程序的基本结构（五）：异常处理](https://github.com/coding-newbies-group/pilot/blob/master/p1-6-structure-5.ipynb)
 - [第七章 理解对象与类：起源篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-7-oo-1.ipynb)
 - [第八章 理解对象与类：概念篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-8-oo-2.ipynb)
 - [第九章 理解对象与类：Python 篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-9-oo-3.ipynb)
 - [第十章 字符与字符串](https://github.com/coding-newbies-group/pilot/blob/master/p1-a-string.ipynb)
 - [最十一章 课程练习](https://github.com/coding-newbies-group/pilot/blob/master/p1-b-final.ipynb)
+>>>>>>> f7cd20c87e1101e434ab170cbbee01627aec5c78
