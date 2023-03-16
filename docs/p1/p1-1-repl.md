@@ -11,7 +11,7 @@ title: 1.理解编程语言
 
 :::info 信息
 [教材](../pilot/p1-1-understanding-programming-languages.md)
-[视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
+[视频](https://www.bilibili.com/video/BV1xD4y137Ep/?vd_source=4a888db8814702b2062fcaf2575be745)
 :::
 
 

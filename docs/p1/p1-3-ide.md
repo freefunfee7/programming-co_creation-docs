@@ -2,6 +2,11 @@
 title: 3.IDE集成开发环境
 ---
 
+:::info 信息
+[视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
+:::
+
+
 ## 1.什么是IDE
 
 下面是维基百科关于IDE的中文释义：
@@ -55,6 +60,9 @@ title: 3.IDE集成开发环境
 
 4. 页面底部会要求我们选择“Interpreter”编译器，然后选择页面顶部弹出的Python 3.XX.X：
 
+   > 有同学提示他们看不到底部的选择“Interpreter”的提示，说是因为安装了Python的扩展才会看到，大家可以按照下图，再VSCode左侧，找到扩展，然后搜过python，安装一下Python的VSCode扩展，这样VSCode会更好的支持Python这种语言。
+   > ![image-20230227231235873](./p1-3-ide.assets/image-20230227231235873.png)
+
    ![image-20230224214245873](./p1-3-ide.assets/image-20230224214245873.png)
 
 5. 下面，我们把 《[6.第一段Python代码](../p0/p0-6-python.md)》 一课中的代码用VSCode再写一遍，执行一遍：
@@ -67,5 +75,14 @@ title: 3.IDE集成开发环境
 ## 作业
 
 这一篇，我们留个作业，把前面已经涉及过的Python代码，原来在PowerShell中，通过Python解释器直接运行的代码，在VSCode中再试一次。
+
+``` python
+42
+3.14
+'a'
+'abracadabra'
+True
+False
+```
 
 请将结果，VSCode结果截图回复到该Github Issues中：[作业：1-3-IDE集成开发环境 · Issue #27](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/27)

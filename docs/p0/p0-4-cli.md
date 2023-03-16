@@ -154,14 +154,14 @@ cd ~
 
 
 
-## 补充：
+## 11.补充：
 
 :::tip 提示
 
 **新手可以选项**，可以先用系统自带的terminal工具，开始编程学习。
 :::
 
-#### 1.2.2.替代系统自带的Terminal：iTerm2
+### 11.1.替代 Mac 系统自带的Terminal：iTerm2
 
 [iTerm2](https://iterm2.com/)是一个在macOS系统的免费开源终端软件。相较于自带的Terminal，iTerm2提供了更多的特性，包括支持多tab窗口，分屏，快速搜索，自动补全命令，有丰富多样的主题可供定制使用
 
@@ -202,3 +202,58 @@ Oh My Zsh 是在macOS系统平台上，用于管理Zsh配置的框架，它提�
 ![zshrc](./p0-4-cli.assets/zshrc.png)
 ![ohmyzsh-theme-ys](./p0-4-cli.assets/ohmyzsh-theme-ys.png)
 
+### 11.2.如何安装 PowerShell for Windows
+
+:::info 信息
+[视频：_如何在 Windows 设备安装 PowerShell ?_](https://www.bilibili.com/video/BV1gT411q7Tx/?vd_source=08ffb5056ed58860f28c643cbea98c2d)
+:::
+
+#### Powershell 是什么？
+
+**PowerShell是一个跨平台的任务自动化解决方案，由一个命令行外壳、一种脚本语言和一个配置管理框架组成。**
+
+通常来说，PowerShell 更常见于 Windows 系统，Window 10 和 Windows 11 一般也都是自带 PowerShell 的。
+
+但是如果我们发现自己的 Windows 系统无法运行 PowerShell， 也没有关系，可以自己安装。
+
+#### 安装 PowerShell
+
+PowerShell 的安装方式有多种，但是考虑到中国大陆的网络现状，可能采用有的方式不一定能顺利安装。这里就只介绍一种个人觉得比较“稳妥”的安装方式：**下载 MSI package 到本地磁盘进行安装。**
+
+#### 安装步骤：
+
+首先，**下载 PowerShell**. ⬇
+
+**传送门**：[Installing the MSI package](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi)
+
+![](https://assets.quill.im/tvo4vfhamyg6140oagl4fcojqke9)
+
+通常来说，我们现在使用的电脑都是 64 bit 的，可以直接选择上图红线上的包进行安装。
+
+（如果不确定操作系统架构，可以打开命令提示符，输入命令 `wmic OS get OSArchitecture` 来查看）。
+
+![](https://assets.quill.im/qrreaes2qiv3oh2trgjmcb3j2leh)
+
+然后，**安装 PowerShell**.
+
+双击打开下载好的 **msi 安装包**
+
+![](https://assets.quill.im/48wxz5btdty3qqprlrtpsf4p3vpw)
+
+**「下一步 」 → 「下一步」…… 直到安装完成。**
+
+![](https://assets.quill.im/bnxdb8zvepuuq10pwktpi5i7rhnx)
+
+![](https://assets.quill.im/wft7qg4v8acz3kss63aw8rdgc85n)
+
+![](https://assets.quill.im/7rixodom7ixlbl3ggx2c3618ovna)
+
+![](https://assets.quill.im/xnxha7tskd1b7bowz63follrob7m)
+
+![](https://assets.quill.im/whu65bt8w2kv84sfpdufi9qo6wgv)
+
+![](https://assets.quill.im/mamndzg95tf4t3qgvxdqy5mu9luk)
+
+![](https://assets.quill.im/lrfoa6145op2g531673bj5847j4b)
+
+到此，PowerShell 安装结束。
