@@ -74,6 +74,7 @@ const sidebars = {
         "extend/github-edit-name",
         "extend/snipaste",
         "extend/pull-request",
+        "extend/set-environment-variable-in-CLI",
       ],
       collapsible: false,
     },
