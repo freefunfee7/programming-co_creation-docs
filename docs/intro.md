@@ -34,6 +34,8 @@ title: 介绍
 - 插播-1.[编程作业提交指南](./extend/assignment-submit-guide.md)
 - 1-7.[逻辑判断与分支](./p1/p1-7-if.md)
 - 1-8.[逻辑运算符](./p1/p1-8-logical.md)
+- 1-9.[循环](./p1/p1-9-loop.md)
+- 1-10.[字符与字符串](./p1/p1-10-string.md)
 
 ### 作业
 
