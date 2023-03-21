@@ -121,6 +121,8 @@ client.loopBlaze({
 
 and, or, not
 
+下面的例子中，用到了`print(f'...')`这样的结构，请先忽略`f'...'`这种用法是什么，具体怎么用，这叫`f-string`，会在[《1-10.字符串》](./p1-10-string.md)中讲到。
+
 ```python
 a = 10
 b = 20
