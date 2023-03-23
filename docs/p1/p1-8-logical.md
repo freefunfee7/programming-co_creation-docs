@@ -134,7 +134,7 @@ if (c > b and b > a):  # and两边都是真
     print("and两边都为真时整个式子为真")
 if (c > b and b < a):  # and两边有一边是真
     print(f'"c > b and b < a"的结果是: {c > b and b < a}')
-    print("and两边有一边为真时整个式子为真")
+    print("and两边有一边为真时整个式子为假")
 
 # Or
 if (a > b or b > c):  # or的两边都是假
