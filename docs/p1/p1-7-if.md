@@ -89,4 +89,5 @@ if( msg.data === "你好"){
 
 大家可以自行去搜索一下JavaScript的常见运算符，然后自己修改一下机器人中的代码，来熟悉更多的知识。
 
-附：[《编程作业提交指南》](../extend/assignment-submit-guide.md)
+传送门：[作业：1-7-逻辑判断与分支](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/142)
+

@@ -97,3 +97,5 @@ for i in "hello":
 用MixChat帮你进行代码转换，然后分别解释这个代码工作的过程，作为作业提交。
 
 ![image-20230319124858342](https://raw.githubusercontent.com/vwumumu/images/master/image-20230319124858342.png)
+
+传送门：[作业：1-9-循环](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/144)

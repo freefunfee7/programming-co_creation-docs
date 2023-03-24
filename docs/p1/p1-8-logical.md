@@ -177,3 +177,5 @@ if (not (a < b)):  # a<b是真
 | Not  | False | True  |
 
 2.将逻辑运算符应用在你的机器人代码上，并作为作业提交。
+
+传送门：[作业：1-8-逻辑运算符](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/143)
