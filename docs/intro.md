@@ -17,17 +17,17 @@ title: 介绍
 ### 准备篇
 
 - 0-1.[前期准备](./p0/p0-1-prep.md)
-- 0-2.[通过 Github 提交问题](./p0/p0-2-issues.md) | [视频](https://www.bilibili.com/video/BV1V24y1H73p/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-3.[Markdown 超简教程](./p0/p0-3-markdown.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-4.[使用命令行](./p0/p0-4-cli.md) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-5.[通过 Github 共创](./p0/p0-5-collaborate.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-6.[第一段 Python 代码](./p0/p0-6-python.md) | [视频](https://www.bilibili.com/video/BV18s4y1j7KQ/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 0-2.[通过 Github 提交问题](./p0/p0-2-issues.md)
+- 0-3.[Markdown 超简教程](./p0/p0-3-markdown.md)（新手非必须）
+- 0-4.[使用命令行](./p0/p0-4-cli.md)
+- 0-5.[通过 Github 共创](./p0/p0-5-collaborate.md)（新手非必须）
+- 0-6.[第一段 Python 代码](./p0/p0-6-python.md)
 
-### 基础篇
+### 最少必要编程知识篇
 
-- 1-1.[理解编程语言](./p1/p1-1-repl.md) | [视频](https://www.bilibili.com/video/BV1xD4y137Ep/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 1-2.[值与变量](./p1/p1-2-values-variables.md) | [视频](https://www.bilibili.com/video/BV14M411j7d4/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md) | [视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 1-1.[理解编程语言](./p1/p1-1-repl.md)
+- 1-2.[值与变量](./p1/p1-2-values-variables.md)
+- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md)
 - 1-4.[操作符](./p1/p1-4-operators.md)
 - 1-5.[函数](./p1/p1-5-functions.md)
 - 1-6.[做个 Mixin 机器人](./p1/p1-6-mixin-bot.md)
@@ -35,10 +35,22 @@ title: 介绍
 - 1-8.[逻辑运算符](./p1/p1-8-logical.md)
 - 1-9.[循环](./p1/p1-9-loop.md)
 - 1-10.[字符串](./p1/p1-10-string.md)
+- 1-11.数组
+- 1-12.对象
+- 1-13.函数
+- 1-14.模块
+
+### Mixin机器人篇
+
+- 2-1.熟悉消息结构
+- 2-2.熟悉SDK
+- 2-3.项目：英语学习助手
 
 ### 作业
 
 - 1-5.[函数](./homework/1-5.md)
+- 1-7.[逻辑判断与分支](./homework/1-7.md)
+- 1-8.[逻辑运算符](./homework/1-8.md)
 
 ### 扩展资料
 

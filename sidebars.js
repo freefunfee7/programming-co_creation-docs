@@ -36,7 +36,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "1.基础篇",
+      label: "1.最少必要编程知识篇",
       items: [
         "p1/p1-1-repl",
         "p1/p1-2-values-variables",
@@ -53,14 +53,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "2.进阶篇",
+      label: "2.Mixin机器人篇",
       items: ["p2/example"],
       // collapsible: false,
     },
     {
       type: "category",
       label: "3.作业",
-      items: ["homework/1-5"],
+      items: ["homework/1-5", "homework/1-7", "homework/1-8"],
       collapsible: false,
     },
     {
