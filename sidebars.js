@@ -48,6 +48,7 @@ const sidebars = {
         "p1/p1-8-logical",
         "p1/p1-9-loop",
         "p1/p1-10-string",
+        "p1/p1-11-how-to-start-programming-self-study",
       ],
       collapsible: false,
     },

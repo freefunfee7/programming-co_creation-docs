@@ -35,6 +35,7 @@ title: 介绍
 - 1-8.[逻辑运算符](./p1/p1-8-logical.md)
 - 1-9.[循环](./p1/p1-9-loop.md)
 - 1-10.[字符串](./p1/p1-10-string.md)
+- 1-11.[阶段总结——如何开启编程自学？](./p1/p1-11-how-to-start-programming-self-study.md)
 - 1-11.数组
 - 1-12.对象
 - 1-13.函数
