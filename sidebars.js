@@ -50,6 +50,7 @@ const sidebars = {
         "p1/p1-10-string",
         "p1/p1-11-how-to-start-programming-self-study",
         "p1/p1-12-array",
+        "p1/p1-13-object",
       ],
       collapsible: false,
     },
