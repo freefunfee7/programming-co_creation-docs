@@ -84,6 +84,9 @@ obj.name
 
 ## 4.作业
 
+传送门：[作业：1-13-对象](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/156)
+
+
 完成以下操纵对象的操作，将代码和代码执行结果作为作业提交。
 
 创建一个空对象，即不包含任何内容的对象。

@@ -232,6 +232,9 @@ console.log(arr2)
 
 ## 4.作业
 
+传送门：[作业：1-12-数组](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/155)
+
+
 我们在VSCode的js文件中，定义下面这个数组：
 
 ```js
