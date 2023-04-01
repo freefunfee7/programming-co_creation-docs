@@ -78,6 +78,7 @@ const sidebars = {
         "extend/snipaste",
         "extend/pull-request",
         "extend/set-environment-variable-in-CLI",
+        "extend/assignment-submit-guide"
       ],
       collapsible: false,
     },

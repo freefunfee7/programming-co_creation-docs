@@ -68,6 +68,7 @@ title: 介绍
 - [06.Snipaste: 一款截图神器](./extend/06.snipaste.md)
 - [07.Pull requests（简称 PR）](./extend/07.pull-request.md)
 - [08.如何给 CLI 设置全局变量](./extend/08.set-environment-variable-in-CLI.md)
+- [09.通过PicGo为Typora设置Github图床](./extend/09.assignment-submit-guide.md)
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
