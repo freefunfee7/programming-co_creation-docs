@@ -38,8 +38,8 @@ title: 介绍
 - 1-11.[阶段总结——如何开启编程自学？](./p1/p1-11-how-to-start-programming-self-study.md)
 - 1-12.[数组](./p1/p1-12-array.md)
 - 1-13.[对象](./p1/p1-13-object.md)
-- 1-14.函数
-- 1-15.模块
+- 1-14.[函数](./p1/p1-14-function.md)
+- 1-15.[模块](./p1/p1-15-module.md)
 
 ### Mixin机器人篇
 

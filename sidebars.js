@@ -51,6 +51,8 @@ const sidebars = {
         "p1/p1-11-how-to-start-programming-self-study",
         "p1/p1-12-array",
         "p1/p1-13-object",
+        "p1/p1-14-function",
+        "p1/p1-15-module",
       ],
       collapsible: false,
     },
