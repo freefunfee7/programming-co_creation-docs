@@ -58,9 +58,9 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "2.Mixin机器人篇",
-      items: ["p2/example"],
-      // collapsible: false,
+      label: "2.项目篇",
+      items: ["p2/engassociate"],
+      collapsible: false,
     },
     {
       type: "category",
