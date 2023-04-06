@@ -31,6 +31,11 @@ title: 1.英语小助手
 
    ![](https://raw.githubusercontent.com/vwumumu/images/master/20230403211949.png)
 
+#### 4. 实现机器人回应的代码部分
+
+#### 5. 为机器人添加一个白名单用户判断
+
+
    
 
 
@@ -68,6 +73,12 @@ title: 1.英语小助手
 
 10. 实现通过ChatGPT翻译输入的文本
 
+11. 找一个合适的对ChatGPT的角色的文字描述来定义英文对话，口语提升的功能
+
+12. 写了一个新的函数，叫做conversion()用来处理对话
+
+13. 将chatgpt的请求部分，单独抽离出一个函数叫queryChatGPT()
+
 ## 3.视频
 
-[01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8)
+[01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8) | [07](https://youtu.be/ZUGQ4Z2WeNk) | [08](https://youtu.be/Ju1Rg4x84Zg) | [09](https://youtu.be/as2ZBIDx41E)
