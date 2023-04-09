@@ -4,8 +4,7 @@ title: 1.英语小助手
 
 ## 1.视频
 
-[01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8) | [07](https://youtu.be/ZUGQ4Z2WeNk) | [08](https://youtu.be/Ju1Rg4x84Zg) | [09](https://youtu.be/as2ZBIDx41E) | [10](https://youtu.be/FqCSgyDulfA) | [11](https://youtu.be/4Vj_pcaKubY) | [12](https://youtu.be/m759dozLp4Q) | [13](https://youtu.be/4T-DxsXC5yk)
-
+[产品功能介绍1](https://youtu.be/XSIB55aHJ6Y) | [产品功能介绍2](https://youtu.be/-1cyDATxaEg) | [01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8) | [07](https://youtu.be/ZUGQ4Z2WeNk) | [08](https://youtu.be/Ju1Rg4x84Zg) | [09](https://youtu.be/as2ZBIDx41E) | [10](https://youtu.be/FqCSgyDulfA) | [11](https://youtu.be/4Vj_pcaKubY) | [12](https://youtu.be/m759dozLp4Q) | [13](https://youtu.be/4T-DxsXC5yk) | [14](https://youtu.be/OspgMWstJpU) | [15](https://youtu.be/Cb4ksEDquoI)
 
 
 ## 2.过程记录

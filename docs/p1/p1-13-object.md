@@ -15,7 +15,6 @@ var person = {
 };
 
 console.log(person.name); // 输出 "Tom"
-person.sayHello(); // 输出 "Hello, my name is Tom"
 ```
 
 变量`person`后面的值，用大括号`{}`包裹起来的部分就是对象。
