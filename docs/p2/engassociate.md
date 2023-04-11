@@ -4,8 +4,51 @@ title: 1.英语小助手
 
 ## 1.视频
 
-[产品功能介绍1](https://youtu.be/XSIB55aHJ6Y) | [产品功能介绍2](https://youtu.be/-1cyDATxaEg) | [01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8) | [07](https://youtu.be/ZUGQ4Z2WeNk) | [08](https://youtu.be/Ju1Rg4x84Zg) | [09](https://youtu.be/as2ZBIDx41E) | [10](https://youtu.be/FqCSgyDulfA) | [11](https://youtu.be/4Vj_pcaKubY) | [12](https://youtu.be/m759dozLp4Q) | [13](https://youtu.be/4T-DxsXC5yk) | [14](https://youtu.be/OspgMWstJpU) | [15](https://youtu.be/Cb4ksEDquoI)
+请先观看：[产品功能介绍1](https://youtu.be/XSIB55aHJ6Y) | [产品功能介绍2](https://youtu.be/-1cyDATxaEg)，了解我们要实现什么。
 
+再看下面视频，经历这个实现和思考的过程，因为是实录，所以会有逻辑上有点跳跃的内容，欢迎大家补充必要的说明，帮助减少跳跃带来的影响。
+
+这些跳跃，通常在后面会得到说明，另外，最关键的是如何在“自己”的大脑中根据需求，参考视频构建代码。
+
+[01](https://v.youku.com/v_show/id_XNTk1NTE1MTkyNA==.html) | [02](https://v.youku.com/v_show/id_XNTk1NTE1MzI5Ng==.html) | [03](https://v.youku.com/v_show/id_XNTk1NTE1MzM0NA==.html) | [04](https://youtu.be/23TDNwcPjqE) | [05](https://v.youku.com/v_show/id_XNTk1MzE5MzYwNA==.html) | [06](https://youtu.be/JYrx2oRxiC8) | [07](https://youtu.be/ZUGQ4Z2WeNk) | [08](https://youtu.be/Ju1Rg4x84Zg) | [09](https://youtu.be/as2ZBIDx41E) | [10](https://youtu.be/FqCSgyDulfA) | [11](https://youtu.be/4Vj_pcaKubY) | [12](https://youtu.be/m759dozLp4Q) | [13](https://youtu.be/4T-DxsXC5yk) | [14](https://youtu.be/OspgMWstJpU) | [15](https://youtu.be/Cb4ksEDquoI)
+
+下面是部分提示信息，可能在视频中遇到困难时会有起到一定的帮助作用。
+
+## 2.提示
+
+* 视频中用到的config.js文件内容参考如下，替换成自己的机器人keystore和openai key：
+
+    ```js
+    module.exports = {
+      pin: "",
+      client_id: "",
+      session_id: "",
+      pin_token: "",
+      private_key: "",
+      openai_key: "",
+    };
+    ```
+
+* 如果没有openai key，虽然不能交互，但是可以伪造openai的返回，比如如下，强制写个固定的rec和token：
+
+  ```js
+  async function queryChatGPT(msg) {
+    // const completion = await openai.createChatCompletion({
+    //   model: "gpt-3.5-turbo",
+    //   messages: msg,
+    // });
+    // const rec = completion.data.choices[0].message.content.replace(
+    //   /^"(.*)"$/,
+    //   "$1"
+    // );
+    // const token = completion.data.usage.total_tokens;
+    const rec = "你好"
+    const token = 100
+    return { rec: rec, token: token };
+  }
+  ```
+
+  
 
 ## 2.过程记录
 
